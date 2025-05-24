@@ -40,3 +40,40 @@ p{
     text-align: start;
 }
 
+@media (max-width: 425px){
+    .links img{
+    width: 120px;
+    height: 110px;
+    padding-left: 7%;
+    display: inline-flexs;
+}
+.dowloundBlock{
+    background-color: black;
+    width: 37%;
+    height: 150%;
+
+}
+}
+
+@media (max-height: 425px){
+    .links img{
+    width: 120px;
+    height: 110px;
+    padding-left: 2%;
+    display: inline-flexs;
+}
+.dowloundBlock{
+    background-color: black;
+    width: 37%;
+    height: 150%;
+
+}
+
+.dowloundBlock a{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display:inline-flex;
+    padding: 3%;
+    font-size: 20px;
+}
+}
+
