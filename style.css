@@ -1,4 +1,6 @@
-
+body{
+    background-color: rgb(63, 61, 61);
+}
   
 .links img{
     width: 120px;
@@ -8,12 +10,12 @@
 }
 
 .dowloundBlock{
-    background-color: black;
+    background-color: rgb(54, 54, 54);
     width: 25%;
     height: 150%;
 
 }
-p{
+.dowloundBlock p{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 35px;
     color: #7a3a83;
@@ -42,13 +44,65 @@ p{
 .mess{
     display: none;
     position: fixed;
-    top: 0;
-    width: 100%;
+    top: 56%;
+    width: 23.4%;
     background: #ffcc00;
     padding: 10px;
     text-align: center;
 }
 
+.languageMessage {
+    position: fixed;
+    top: 15%;
+    left: 39%;
+    width: 15%;
+    background: #ffcc00;
+    padding: 10px;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    visibility: hidden; /* Элемент невидим, но сохраняет место */
+    opacity: 0;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.languageMessage.show {
+    opacity: 1;
+    visibility: visible;
+}
+
+.info{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    right: 100px;
+    top: 100px;
+}
+
+.aboutMe {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+  z-index: 1000;
+}
+
+.aboutMe.show {
+  opacity: 1;
+  visibility: visible;
+}
+
+.aboutMe .BETA {
+  margin: 0;
+  font-size: 24px;
+  font-weight: bold;
+}
 @media (max-width: 425px){
     .links img{
     width: 120px;
@@ -57,7 +111,6 @@ p{
     display: inline-flexs;
 }
 .dowloundBlock{
-    background-color: black;
     width: 37%;
     height: 150%;
 
@@ -66,7 +119,6 @@ p{
     top: 0;
     left: -20px;
     width: 100%;
-    background: #ffcc00;
     text-align: center;
     font-size: 20px;
 
@@ -83,7 +135,6 @@ p{
     
 }
 .dowloundBlock{
-    background-color: black;
     width: 37%;
     height: 150%;
 
@@ -99,7 +150,6 @@ p{
     top: 0;
     left: -20px;
     width: 100%;
-    background: #ffcc00;
     text-align: center;
     font-size: 20px;
 
