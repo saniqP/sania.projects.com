@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', function() {
       }
       else if (this.classList.contains('cxx')) {
         languageMessage.textContent = 'c++';
-        languageMessage.style.backgroundColor = '#4ca9d4';
+        languageMessage.style.backgroundColor = '#8e8e8e';
         languageMessage.classList.add('show');
       }
       else if (this.classList.contains('jva')) {
